@@ -120,7 +120,7 @@ Once you got a hang of writing unit tests you will become more and more fluent i
 #### Unit Testing is Not Enough
 A good unit test suite will be immensely helpful during development: You know that all the small units you tested are working correctly in isolation. Your small-scoped unit tests help you narrowing down and reproducing errors in your code. On top they give you fast feedback while working with the codebase and will tell you whether you broke something unintendedly. Consider them as a tool _for developers_ as they are written from the developer's point of view and make their job easier.
 
-Unfortunately writing unit alone won't get you very far. With unit tests you don't know whether your application as a whole works as intended. You don't know whether the features your customers love actually work. You don't know if you did a proper job plumbing and wiring all those components, classes and modules together.
+Unfortunately writing unit tests alone won't get you very far. With unit tests you don't know whether your application as a whole works as intended. You don't know whether the features your customers love actually work. You don't know if you did a proper job plumbing and wiring all those components, classes and modules together.
 
 Maybe there's something funky happening once all your small units join forces and work together as a bigger system. Maybe your code works perfectly fine when running against a mocked database but fails when it's supposed to write data to a real database. And maybe you wrote perfectly elegant and well-crafted code that totally fails to solve your users problem. Seems like we need more in order to spot these problems.
 
