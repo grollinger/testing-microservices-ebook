@@ -48,7 +48,7 @@ image::buildPipeline.png[build pipeline]
 
 Most microservices success stories are told by teams who use continuous delivery or **continuous deployment** (every software change that's proven to be releasable will be deployed to production). These teams make sure that changes get into the hands of their customers quickly.
 
-How do you proof that your latest change still results in releasable software? You test your software including the latest change thoroughly. Traditionally you'd do this manually by deploying your application to a test environment and then performing some black-box style testing e.g. by clicking through your user interface to see if anything's broken.
+How do you prove that your latest change still results in releasable software? You test your software including the latest change thoroughly. Traditionally you'd do this manually by deploying your application to a test environment and then performing some black-box style testing e.g. by clicking through your user interface to see if anything's broken.
 
 It's obvious that testing all changes manually is time-consuming, repetitive and tedious. Repetitive is boring, boring leads to mistakes and makes you look for a different job by the end of the week.
 
